@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<head>
+    <script src="https://kit.fontawesome.com/0fd1f894e9.js"></script>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+body,p {margin:0px;}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center" style="padding:50px 16px;justify-content: center;">
+    <div>
+        <img src="https://yt3.ggpht.com/a/AGF-l78MjEUR0H1cbGeULIY22YfxBT-EY9mbdKji7A=s900-mo-c-c0xffffffff-rj-k-no" 
+        alt="Sasha Kolomiytsev" 
+        style='border-radius: 100px;width:150px;height:150px;'>
+    </div>
+    <h1><strong>Sasha Kolomiytsev</strong><i style='cursor: pointer; font-size: 18px;border:solid black 1px; padding:5px;border-radius: 10px;' onclick='play()' class="fas fa-volume-up fa-xs"></i></h1>
+  <h1 class="w3-xlarge">Full Stack Software Engineer</h1>
+  <audio id="sashakolomiytsev" src="./sashakolomiytsev.mp3"></audio>
+  <div>
+        <a target='blank' style='margin:10px;' href="https://www.linkedin.com/in/alexander-kolomiytsev-54366964/"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a target='blank' style='margin:10px;' href='https://github.com/kolomiytsevs/'><i class="fab fa-github fa-lg"></i></a>
+        <a target='blank' alt='resume' style='margin:10px;' href='./CV - PM.pdf'><i class="far fa-file-alt fa-lg"></i></a>
+  </div>
+  <div style='display:flex; flex-wrap: wrap; text-align: center;justify-self: center;margin-top:20px;align-self:center;justify-content: center;'>
+    <p>Javascript</p>
+    <li style='margin-left:10px;'></li>
+    <p>React.js</p>
+    <li style='margin-left:10px;'></li>
+    <p>Node.js</p>
+    <li style='margin-left:10px;'></li>
+    <p>HTML</p>
+    <li style='margin-left:10px;'></li>
+    <p>CSS</p>
+    <li style='margin-left:10px;'></li>
+    <p>MongoDB</p>
+  </div>
+  <div style='display:flex; flex-wrap: wrap; text-align: center;justify-self: center;margin-top:10px;align-self:center;justify-content: center;'>
+    <p>Circle CI</p>
+    <li style='margin-left:10px;'></li>
+    <p>AWS</p>
+    <li style='margin-left:10px;'></li>
+    <p>Google Cloud</p>
+    <li style='margin-left:10px;'></li>
+    <p>Heroku</p>
+    <li style='margin-left:10px;'></li>
+    <p>Sass</p>
+  </div>
+  
+</header>
+
+
+<!-- Photo Grid -->
+<div class="" style="margin-bottom:80px; text-align: center;">
+        <h2>Projects</h3>
+  <div class="" style='display:flex; text-align: center;align-content: center;justify-content: center;flex-wrap: wrap;'>
+        
+    <div>
+        <a target='_blank' href='https://www.eastcottandburgess.com/home'><img src="https://res.cloudinary.com/eastcott-and-burgess/image/upload/v1560367740/Website_Screenshot_2_hdiezz.jpg" style="width:40vw; margin:10px;"></a>
+        <p><a target='_blank' href='https://www.eastcottandburgess.com/home'>Eastcott & Burgess Ecommerce Store</a></p>
+        <div>
+            <a target='blank' style='margin:5px;' href='https://github.com/kolomiytsevs/eastcott-burgess-ecommerce-store'><i class="fab fa-github fa-lg"></i></a>
+            <a target='blank' style='margin:5px;' href='https://www.youtube.com/watch?v=8NuGFa7ICes'><i class="fab fa-youtube fa-lg"></i></a>
+            <a target='blank' style='margin:5px;' href='https://www.eastcottandburgess.com/home'><i class="fas fa-globe fa-lg"></i></a>
+        </div>
+    </div>
+    <div>
+        <a target='_blank' href='https://chrome.google.com/webstore/detail/gratitude-aptitude/jnjclhcllckpffefgaibgmkaehdibppo'><img src="https://res.cloudinary.com/eastcott-and-burgess/image/upload/v1561817628/Capture2_yehz0z.jpg" style="width:40vw;  margin:10px;"></a>
+        <p><a target='_blank' href='https://chrome.google.com/webstore/detail/gratitude-aptitude/jnjclhcllckpffefgaibgmkaehdibppo'>Gratitude Aptitude | Chrome New Tab Extension</a></p>
+        <div>
+            <a target='blank' style='margin:5px;' href='https://github.com/kolomiytsevs/gratitude-aptitude'><i class="fab fa-github fa-lg"></i></a>
+            <a target='blank' style='margin:5px;' href='https://chrome.google.com/webstore/detail/gratitude-aptitude/jnjclhcllckpffefgaibgmkaehdibppo'><i class="fas fa-globe fa-lg"></i></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const play = () =>{
+       var audio = document.getElementById("sashakolomiytsev");
+       audio.play();
+                 }
+</script>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+ 
+  
+</footer>
+
+</body>
+</html>
